@@ -1,17 +1,22 @@
 import { Image, Container, Title, Button, Group, Text, List, ThemeIcon, rem } from '@mantine/core';
 import { IconCheck } from '@tabler/icons-react';
 import classes from './HeroBullets.module.css';
+import image from './gene-structure-svgrepo-com.svg';
+import { useMantineTheme } from '@mantine/core';
 
 export function HeroBullets() {
+
+  const theme = useMantineTheme();
+
   return (
-    <Container size="md" style={{ backgroundColor: '#092022' }}>
+    <Container size="lg">
       <div className={classes.inner}>
         <div className={classes.content}>
           <Title className={classes.title}>
             All your <span className={classes.highlight}>Payments</span> data <br />  in one location.
           </Title>
           <Text c="dimmed" mt="md">
-            No code integration, processing and harmonization of all your payments services providers (PSPs) into on single location.
+            No code integration, processing and harmonization of payments data from all your payments services providers (PSPs) into on single location.
           </Text>
 
           <List
@@ -31,20 +36,17 @@ export function HeroBullets() {
               <b>Payment Gateways</b> – Stripe, Paypal, Eupago, etc
             </List.Item>
             <List.Item>
-              <b>More</b> – focus ring will appear only when user navigates with
-              keyboard
+              <b>Target Industries</b> – we support organizations of all sizes that receive or send payments via payments services providers (PSPs).
             </List.Item>
           </List>
-
+        
           <Group mt={30}>
             <Button radius="xl" size="md" className={classes.control}>
-              Get started
-            </Button>
-            <Button variant="default" radius="xl" size="md" className={classes.control}>
-              Source code
+              Contact Us
             </Button>
           </Group>
         </div>
+        <Image src={image.src} className={classes.image} />
       </div>
     </Container>
   );
