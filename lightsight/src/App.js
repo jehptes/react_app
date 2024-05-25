@@ -1,8 +1,6 @@
 import './App.css';
 import '@mantine/core/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
-import { HeroTitle } from './Landingpage';
-import { HeroImageRight } from './HeroImageRight';
 import { HeroBullets } from './HeroBullets';
 
 
