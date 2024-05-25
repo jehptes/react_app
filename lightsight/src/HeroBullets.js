@@ -8,11 +8,10 @@ export function HeroBullets() {
       <div className={classes.inner}>
         <div className={classes.content}>
           <Title className={classes.title}>
-            A <span className={classes.highlight}>modern</span> React <br /> components library
+            All your <span className={classes.highlight}>Payments</span> data <br />  in one location.
           </Title>
           <Text c="dimmed" mt="md">
-            Build fully functional accessible web applications faster than ever – Mantine includes
-            more than 120 customizable components and hooks to cover you in any situation
+            Build fully Seamlessly integrate, process and harmonize all your payments
           </Text>
 
           <List
@@ -26,15 +25,14 @@ export function HeroBullets() {
             }
           >
             <List.Item>
-              <b>TypeScript based</b> – build type safe applications, all components and hooks
+              <b>Payments data</b> – Transactions, Fees, etc 
               export types
             </List.Item>
             <List.Item>
-              <b>Free and open source</b> – all packages have MIT license, you can use Mantine in
-              any project
+              <b>Payment Gateways</b> – Stripe, Paypal, Eupago, etc
             </List.Item>
             <List.Item>
-              <b>No annoying focus ring</b> – focus ring will appear only when user navigates with
+              <b>More</b> – focus ring will appear only when user navigates with
               keyboard
             </List.Item>
           </List>
