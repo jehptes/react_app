@@ -4,14 +4,14 @@ import classes from './HeroBullets.module.css';
 
 export function HeroBullets() {
   return (
-    <Container size="md">
+    <Container size="md" style={{ backgroundColor: '#092022' }}>
       <div className={classes.inner}>
         <div className={classes.content}>
           <Title className={classes.title}>
             All your <span className={classes.highlight}>Payments</span> data <br />  in one location.
           </Title>
           <Text c="dimmed" mt="md">
-            Build fully Seamlessly integrate, process and harmonize all your payments
+            No code integration, processing and harmonization of all your payments services providers (PSPs) into on single location.
           </Text>
 
           <List
@@ -19,14 +19,13 @@ export function HeroBullets() {
             spacing="sm"
             size="sm"
             icon={
-              <ThemeIcon size={20} radius="xl">
-                <IconCheck style={{ width: rem(12), height: rem(12) }} stroke={1.5} />
+              <ThemeIcon size={20} radius="xl" color='green'>
+                <IconCheck style={{ width: rem(12), height: rem(12) }} stroke={2.5} />
               </ThemeIcon>
             }
           >
             <List.Item>
               <b>Payments data</b> – Transactions, Fees, etc 
-              export types
             </List.Item>
             <List.Item>
               <b>Payment Gateways</b> – Stripe, Paypal, Eupago, etc
