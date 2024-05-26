@@ -27,7 +27,7 @@ import {
           <div>
             <Title className={classes.title}>Contact us</Title>
             <Text className={classes.description} mt="sm" mb={30}>
-              Leave your email and we will get back to you within 24 hours
+              Leave your email and we will get back to you as soon a possible.
             </Text>
   
             <ContactIconsList />
@@ -50,7 +50,7 @@ import {
             <Textarea
               required
               label="Your message"
-              placeholder="I want to order your goods"
+              placeholder="I want to know more about lightsight payments data platform."
               minRows={4}
               mt="md"
               classNames={{ input: classes.input, label: classes.inputLabel }}
