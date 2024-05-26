@@ -3,11 +3,13 @@ import { IconCheck } from '@tabler/icons-react';
 import classes from './HeroBullets.module.css';
 import image from './gene-structure-svgrepo-com.svg';
 import { useMantineTheme } from '@mantine/core';
+import { useNavigate } from 'react-router-dom';
 
 export function HeroBullets() {
 
   const theme = useMantineTheme();
-
+  const navigate = useNavigate();
+  const handleClick = () => {navigate('/contact')}
   return (
     <Container size="lg">
       <div className={classes.inner}>
@@ -41,7 +43,7 @@ export function HeroBullets() {
           </List>
         
           <Group mt={30}>
-            <Button radius="xl" size="md" className={classes.control}>
+            <Button radius="xl" size="md" className={classes.control} onClick={handleClick}>
               Contact Us
             </Button>
           </Group>

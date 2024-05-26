@@ -2,6 +2,10 @@ import './App.css';
 import '@mantine/core/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
 import { HeroBullets } from './HeroBullets';
+import { HeaderMegaMenu } from './HeaderMegaMenu';
+import { ContactUs } from './ContactUs';
+import { ContactIcons } from './ContactIcons';
+import { Route, Routes } from 'react-router-dom';
 
 
 const theme = createTheme({
@@ -35,8 +39,13 @@ function App() {
         },
       }}
     >
-      <HeroBullets/>
+      <HeaderMegaMenu/>
+      <Routes>  
+        <Route path='/' element= {<HeroBullets/>} ></Route>
+        <Route path='/contact' element= {<ContactUs/>} ></Route>
+      </Routes>
     </MantineProvider>
+    
   );
 }
 
