@@ -17,7 +17,7 @@
     font-family:
       Greycliff CF,
       var(--mantine-font-family);
-    color: var(--mantine-color-black);
+    color: var(--mantine-color-white);
     line-height: 1;
   }
   
