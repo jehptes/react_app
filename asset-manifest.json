@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_app/static/css/main.18642fb4.css",
+    "main.js": "/react_app/static/js/main.13cc8a50.js",
+    "static/js/453.d78f8cff.chunk.js": "/react_app/static/js/453.d78f8cff.chunk.js",
+    "static/media/gene-structure-svgrepo-com.svg": "/react_app/static/media/gene-structure-svgrepo-com.99f5fe9f41bddd3418878ab54b5a5b98.svg",
+    "index.html": "/react_app/index.html",
+    "main.18642fb4.css.map": "/react_app/static/css/main.18642fb4.css.map",
+    "main.13cc8a50.js.map": "/react_app/static/js/main.13cc8a50.js.map",
+    "453.d78f8cff.chunk.js.map": "/react_app/static/js/453.d78f8cff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18642fb4.css",
+    "static/js/main.13cc8a50.js"
+  ]
+}
