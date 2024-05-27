@@ -1,6 +1,7 @@
 {
   "name": "lightsight",
   "version": "0.1.0",
+  "homepage": "https://jehptes.github.io/react_app",
   "private": true,
   "dependencies": {
     "@mantine/core": "^7.10.0",
@@ -19,6 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
