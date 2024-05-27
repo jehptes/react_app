@@ -90,7 +90,7 @@ export function HeaderMegaMenu() {
     <Box pb={120}>
       <header className={classes.header}>
         <Group justify="space-between" h="100%">
-          <img 
+        <img 
                 src={process.env.PUBLIC_URL + 'lightsight_logo.png'} 
                 alt="Logo"
                 className='logo-image'
