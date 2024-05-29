@@ -48,7 +48,11 @@ export function HeroBullets() {
             </Button>
           </Group>
         </div>
-        <Image src={image.src} className={classes.image} />
+        <img 
+                src={process.env.PUBLIC_URL + 'psp.png'} 
+                alt="Logo"
+                className='logo-image'
+            />
       </div>
     </Container>
   );
