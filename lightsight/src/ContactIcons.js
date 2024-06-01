@@ -29,7 +29,7 @@ function ContactIcon({ icon: Icon, title, description, ...others } ) {
 const MOCKDATA = [
   { title: 'Email', description: 'sales@lightsight.co', icon: IconAt },
   { title: 'Phone', description: '+351 938 685 233', icon: IconPhone },
-  { title: 'Address', description: 'Rua Da Estrada Nova, Braga, Portugal', icon: IconMapPin },
+  { title: 'Address', description: 'Rua Da Estrada Nova 20, Braga, Portugal', icon: IconMapPin },
   { title: 'Working hours', description: '8 a.m. – 5 p.m.', icon: IconSun },
 ];
 
