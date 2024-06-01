@@ -12,7 +12,7 @@ import {
   import { ContactIconsList } from './ContactIcons';
   import classes from './ContactUs.module.css';
   
-  const social = [IconBrandTwitter, IconBrandYoutube, IconBrandInstagram];
+  const social = [];
   
   export function ContactUs() {
     const icons = social.map((Icon, index) => (
